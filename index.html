@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+<!-- SECCION NAVEGACION -->
+<section>
+    <ul class="menu">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">INVESTIGACIONES</a></li>
+        <li><a href="#">COLABORADORES</a></li>
+        <li><a href="#">OTROS DATOS</a></li>
+    </ul>
+</section>
+<!-- SECCION_PRESENTACION -->
+<!-- ORIGINAL -->
+<section>
+    <div class="img_text">
+        <div class="text_img">
+            <div class="img_in_txt">
+                <img src="img/adn_01.png" alt="">
+            </div>
+            <div>
+            <h1>TITULO</h1>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, aut veritatis. Expedita, quo eveniet esse dicta, at aperiam delectus eligendi minima mollitia adipisci a asperiores voluptatum possimus reprehenderit cum deleniti.</P>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECCION_INVESTIGACIONES -->
+<section id="IVT">
+    <h1 class="ivt-titulo">INVESTIGACIONES</h1>
+        <section class="ivt-cont">
+            <div class="text_img ivt-cont">
+                <div class="img_in_txt">
+                    <img src="img/laboratorio_01.png" alt="">
+                </div>
+                <div class="ivt-txt">
+                    <h1>TITULO</h1>
+                    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia veniam quod ad incidunt nisi aliquam molestiae optio laboriosam ratione voluptate sunt, omnis repellendus voluptatibus repudiandae earum consequuntur dicta eaque.</p></div>
+                </div>
+            </div>
+        </section>
+</section>
+<!-- COLABORADORES -->
+<section>
+    <h1 class="ivt-titulo">COLABORADORES</h1>
+        <div class="card-cont">
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/elemento_01.jpg" alt="">
+                </div>
+                <div class="card-txt">
+                    <h3>PERSONAL</h3>
+                    <p>ESCRIBE AQUI UNA REDACCION ADECUADA PARA LA PERSONA</p>
+                </div>
+                <button type="button">Ver mas...</button>
+            </div>
+                <div class="card">
+                <div class="card-img">
+                    <img src="img/elemento_01.jpg" alt="">
+                </div>
+                <div class="card-txt">
+                    <h3>PERSONAL</h3>
+                    <p>ESCRIBE AQUI UNA REDACCION ADECUADA PARA LA PERSONA</p>
+                </div>
+                <button type="button">Ver mas...</button>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/elemento_01.jpg" alt="">
+                </div>
+                <div class="card-txt">
+                    <h3>PERSONAL</h3>
+                    <p>ESCRIBE AQUI UNA REDACCION ADECUADA PARA LA PERSONA</p>
+                </div>
+                <button type="button">Ver mas...</button>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/elemento_01.jpg" alt="">
+                </div>
+                <div class="card-txt">
+                    <h3>PERSONAL</h3>
+                    <p>ESCRIBE AQUI UNA REDACCION ADECUADA PARA LA PERSONA</p>
+                </div>
+                <button type="button">Ver mas...</button>
+            </div>
+        </div>
+</section>
+<!-- OTROS DATOS -->
+<section>
+    <h1 class="ivt-titulo">OTROS DATOS</h1>
+    <div>
+        <form action="">
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" required name="Nombre">
+            </div>
+            <div>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido" id="Apellido" required>
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" required>
+            </div>
+            <div>
+                <label for="Pais">Pais</label>
+                <input type="text" name="Pais" id="Pais">
+            </div>
+            <div>
+                <label for="Telefono">Telefono</label>
+                <input type="tel" placeholder="(3562) 123456" name="Telefono" id="Telefono" pattern="\+?[0-9\s\-(\)]{7,20}" title="Ingresa un numero de telefono valido">
+            </div>
+            <div>
+                <label for="Comentarios">Comentario\Mensaje</label>
+                <textarea name="Comentarios" id="Comentarios" rows="10" cols="30" placeholder="Escriba su Comentario\Mensaje..."></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

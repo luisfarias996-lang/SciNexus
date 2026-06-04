@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(20, 172, 53);
+    background-color: rgba(20, 172, 53, 0.411);
     padding: 0 1rem;
 }
 .logo{

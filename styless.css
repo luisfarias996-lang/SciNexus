@@ -116,7 +116,7 @@ padding: 20px;
     margin: 0 auto;
     height: auto;
     display: flex;
-    padding: 20px 0;
+    padding: 20px 10px;
     gap: 20px;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -134,8 +134,14 @@ padding: 20px;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: solid rgb(146, 146, 146);
+    border: solid rgb(219, 219, 219);
     overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    background-color: #ebe9e9;
+    transform: scale(1.05);
 }
 .img-card{
     width: 100%;

@@ -4,7 +4,7 @@ const nextBtn = document.getElementById('nextBtn')
 
 function getScrollAmount() {
     const card = carrusel.querySelector('.card');
-    return card.offsetWidth + 20;
+    return card.offsetWidth + 10;
 }
 
 nextBtn.addEventListener('click', () => {
